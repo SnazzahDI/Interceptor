@@ -2,7 +2,7 @@ const { Plugin } = require('elements')
 const { EventEmitter } = require('eventemitter3')
 
 module.exports = class FakeConnections extends Plugin {
-  preload () {
+  preload() {
     const _this = this;
     class InterceptedWebSocket extends window.WebSocket {
       constructor(url) {
@@ -63,7 +63,7 @@ module.exports = class FakeConnections extends Plugin {
     document.XMLHttpRequest = InterceptedXMLHttpRequest;
   }
 
-  onWSIntercept (ic) {
+  onWSIntercept(ic) {
     this.emit('websocket-intercepted', ic);
   }
 
@@ -72,8 +72,8 @@ module.exports = class FakeConnections extends Plugin {
     ixml.once('opened', (m, u) => this.emit('request-open', u, m, ixml));
   }
 
-  load () {}
-  unload () {
+  load() {}
+  unload() {
     window.WebSocket = this.ws;
     window.XMLHttpRequest = this.xmlhr;
     document.XMLHttpRequest = this.xmlhr;
