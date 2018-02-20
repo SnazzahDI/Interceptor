@@ -82,4 +82,8 @@ module.exports = class FakeConnections extends Plugin {
   get color() {
     return 'f37024';
   }
+
+  get iconURL() {
+    return 'https://raw.githubusercontent.com/SnazzahDI/Interceptor/master/static/interceptor.png'
+  }
 }
