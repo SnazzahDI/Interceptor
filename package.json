@@ -1,8 +1,10 @@
 {
-  "name": "Interceptor",
+  "name": "di-interceptor",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Snazzah",
   "description": "Intercepts outcoming requests.",
+  "peerDependencies": { "elements": "*" },
+  "keywords": ["di-plugin"],
   "license": "MIT"
 }
