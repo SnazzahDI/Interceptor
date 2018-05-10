@@ -1,7 +1,7 @@
 const { Plugin } = require('elements')
 const { EventEmitter } = require('eventemitter3')
 
-module.exports = class FakeConnections extends Plugin {
+module.exports = class Interceptor extends Plugin {
   preload() {
     const _this = this;
     class InterceptedWebSocket extends window.WebSocket {
