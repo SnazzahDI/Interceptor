@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Snazzah",
-  "description": "Intercepts outcoming requests.",
+  "description": "Intercepts outgoing requests.",
   "peerDependencies": { "elements": "*" },
   "keywords": ["di-plugin"],
   "repository": {
