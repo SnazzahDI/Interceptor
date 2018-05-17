@@ -1,11 +1,14 @@
 {
   "name": "di-interceptor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "author": "Snazzah",
   "description": "Intercepts outcoming requests.",
   "peerDependencies": { "elements": "*" },
   "keywords": ["di-plugin"],
+  "dependencies": {
+    "eventemitter3": "^3.1.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SnazzahDI/Interceptor.git"
