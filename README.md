@@ -2,7 +2,7 @@
   <img src="https://i-need.discord.cards/b0eaaf.png" alt="interceptor logo" />
   <hr>
   <h1>Interceptor</h1>
-  <p>Intercepts outcoming requests. (WebSocket &amp; HTTP Requests)</p>
+  <p>Intercepts outgoing requests. (WebSocket &amp; HTTP Requests)</p>
   <i><a href="https://github.com/SnazzahDI/Interceptor/wiki">Wiki</a></i>
   <br>
   <br>
